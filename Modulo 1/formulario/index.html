@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+</head>
+<body>
+    <form autocomplete="on" name="formulario1">
+        <fieldset>
+            <legend>Registro</legend>
+            <label for="nombre">Nombre*</label>
+            <input type="text" name="nombre" placeholder="Ingrese Su Nombre Completo" required>
+            <br>
+            <label for="email">Email*</label>
+            <input type="email" name="email" placeholder="Ingrese su correo" required>
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" placeholder="Ingrese su edad" required>
+            <br>
+            <label for="recomendado">Recomendado por:</label>
+            <select name="recomendado">
+                <option value="google">Google</option>
+                <option value="amigo">Amigo</option>
+                <option value="Redes Sociales">Redes Sociales</option>
+            </select>
+            <br>
+            <label for="comentarios"></label>
+            <textarea name="comentarios" cols="30" rows="10"></textarea>
+            <br>
+            <label for="condiciones"></label>
+            <input type="checkbox" name="condiciones" required>Acepta Terminos y Condiciones*
+            <br>
+            <input type="button" value="Registrar">
+        </fieldset>
+    </form>
+</body>
+</html>
