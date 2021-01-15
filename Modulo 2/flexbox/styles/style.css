@@ -1,0 +1,51 @@
+body {
+    font-size: 3em;
+    font-family: helvetica;
+}
+#bloque1{
+    color: gray;
+    background-color: green;
+    order: 2;
+    flex-grow: 2;
+}
+#bloque2{
+    color: blue;
+    background-color: yellow;
+    order: 3;
+    flex-grow: 3;
+}
+#bloque3{
+    color: red;
+    background-color: white;
+    order: 4;
+    flex-grow: 1;
+}
+#bloque4{
+    color: palegoldenrod;
+    background-color: gold;
+    order: 5;
+    flex-grow: 4;
+}
+#bloque5{
+    color: gray;
+    background-color: green;
+    order: 1;
+    flex-grow: 1;
+}
+#bloque6{
+    color: blue;
+    background-color: yellow;
+    order: 6;
+    flex-grow: 2;
+}
+#bloque7{
+    color: red;
+    background-color: white;
+    order: 7;
+    flex-grow: 3;
+}
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

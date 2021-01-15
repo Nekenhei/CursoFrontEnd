@@ -1,0 +1,21 @@
+table, td, th{
+    border: 1px solid black
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    width: 100px;
+    height: 30px;
+}
+th{
+    text-align: right;
+    vertical-align: top;
+}
+td{
+    text-align: left;
+    vertical-align: bottom;
+}
+tr:nth-child(even){
+    background-color: #D1D1D1;
+}

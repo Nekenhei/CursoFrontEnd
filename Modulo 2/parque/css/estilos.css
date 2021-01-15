@@ -13,6 +13,7 @@ header h1{
 #contenido {
 	padding: 10px;
 	background-color: F9F7F3;
+	border-radius: 6px;
 }
 
 footer {
@@ -41,4 +42,12 @@ footer {
 #menuPrincipal li{
 	list-style-type: none;
 	padding: 10px;
+}
+header{
+	padding: 3px 10px;
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
+	border-radius: 10px;
 }
