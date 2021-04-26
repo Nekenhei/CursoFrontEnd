@@ -21,6 +21,8 @@ async function procesar() {
         console.log("Resultado: ",resultado) 
     } catch (error) {
         console.log('Error :>> ', error);
+    }finally{
+        console.log("proceso terminado");
     }
     
 }
