@@ -1,4 +1,7 @@
 # CursoFrontEnd
 
-Repo donde gaurdare los trabajos y talleres realizados en el curso 
-De frontEnd de NextU
+Repositorio donde están almacenados 
+los diferente ejercicios y talleres del certificado 
+**Front End** de NextU
+
+Taller final en: 
