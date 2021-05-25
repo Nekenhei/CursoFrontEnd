@@ -4,7 +4,7 @@ Repositorio donde están almacenados
 los diferente ejercicios y talleres del certificado 
 **Tecnologías Web Front End** de NextU
 
-##Temas trabajados
+## Temas trabajados
 
 Se trabajaron temas tales como
 
