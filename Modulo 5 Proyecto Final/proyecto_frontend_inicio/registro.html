@@ -61,12 +61,50 @@
     
 
     <main>
-        <div class="py-5 text-center bg-light">
-            <div class="col-md-6 mx-auto">
-                <!--Contendido-->
+        <div class="py-5">
+            <div class="col-md-6 col-xl-3 mx-auto bg-light p-2 p-lg-4">
+                <h1 class="text-center">Registrarse</h1>
+                
+                <form>
+                    <div class="mb-1">
+                        <label for="usuario" class="form-label">Correo:</label>
+                        <input type="email" class="form-control" id="correo" name="correo" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="contrasena" class="form-label">Contraseña:</label>
+                        <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="confirma" class="form-label">Confirmación de contraseña:</label>
+                        <input type="password" class="form-control" id="confirma" name="confirma" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="genero" class="form-label">Género musical favorito:</label>
+                        <select name="genero" id="genero" class="form-select">
+                            <option selected>Seleccione...</option>
+                            <option value="rock">Rock</option>
+                            <option value="salsa">Salsa</option>
+                            <option value="merengue">Merengue</option>
+                            <option value="pop">Pop</option>
+                        </select>
+                    </div>
+                    Edad: 
+                    <div class="mb-2 form-check"><input type="radio" class="form-check-input" name="edad" id="1"><label for="1" class="form-check-label">Menor a 20</label></div>
+                    <div class="mb-2 form-check"><input type="radio" class="form-check-input" name="edad" id="2"><label for="2" class="form-check-label">20 a 40</label></div>
+                    <div class="mb-2 form-check"><input type="radio" class="form-check-input" name="edad" id="3"><label for="3" class="form-check-label">Mayor a 40</label></div>
+                    
+                    <div class="mb-2 form-check"><input type="checkbox" class="form-check-input" id="terminos" name="terminos"><label for="terminos" class="form-check-label">Acepto los terminos y condiciones</label></div>
+                    
+                    <button class="btn btn-primary" type="submit" onclick="return verificarLogin(this.form)" >Inciar Sesion</button>
+                </form>
+
+
+
             </div>
         </div>
     </main>
+
+
 
     <footer class="container-fluid py-1 bg-dark text-white">
         <div class="row"><div class="col text-center"><p class="lead">Comparte la música</p></div></div>
@@ -77,5 +115,6 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="js/verificarRegistro.js"></script>
 </body>
 </html>
