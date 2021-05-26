@@ -15,7 +15,8 @@ Se trabajaron temas tales como
 
 ## Taller Final
 
-Taller final en: 
+Taller final lo puedes encontrar [Aquí](https://github.com/Nekenhei/CursoFrontEnd_NextU/tree/main/Modulo%205%20Proyecto%20Final)
 
+Es necesario usar el plugin de liveserver en VS code o un servidor localhost que ejecute AJAX como XAMPP. 
 
 Mayo/2021
