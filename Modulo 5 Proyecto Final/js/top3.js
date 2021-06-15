@@ -2,7 +2,7 @@ $(function (){
 
     //Solicitar Top3 canciones
     $.ajax({
-            url: "http://127.0.0.1:5500/Modulo%205%20Proyecto%20Final/proyecto_frontend_inicio/datos.json"
+            url: "datos.json"
         }).done(function(respuesta){
 
             cancionesList = respuesta.canciones
